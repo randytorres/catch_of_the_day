@@ -1,6 +1,15 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+var ReactRouter = require('react-router');
+var Router = ReactRouter.Router;
+var Route = ReactRouter.Route;
+var Navigation = ReactRouter.Navigation;
+var History = ReactRouter.History;
+var createBrowserHistory = require('history/lib/createBrowserHistory');
+
+var h = require('./helpers');
+
  /* App
   */
   var App = React.createClass({
@@ -14,8 +23,45 @@ var ReactDOM = require('react-dom');
           <Inventory />
           </div>
         )
+     }
+  });
+
+  /*
+  Add Fish form
+    <AddFishForm />
+  */
+  var AddFishForm = React.createClass({
+    createFish : function(event) {
+      // 1. Stop the form from submitting
+      event.preventDefault();
+      // 2. Take the data from the form and create and object
+      var fish = {
+        name : this.refs.name.value,
+        price : this.refs.price.value,
+        status : this.ref.status.value,
+        desc : this.refs.desc.value,
+        image : this.refs.desc.value
+      }
+      // 3. Add the fish to the App State
+
+    },
+    render : function() {
+      return (
+        <form className="fish-edit" onSubmit={this.createFish}>
+          <input type="text" ref="name" placeholder="Fish Name" />
+          <input type="text" ref="price" placeholder="Fish Price" />
+          <select ref="status">
+            <option value="available">Fresh!</option>
+            <option value="unavailable">Sold Out!</option>
+          </select>
+          <textarea type="text" ref="desc" placeholder="Desc"></textarea>
+          <input type="text" ref="image" placeholder="URL to Image" />
+          <button type="submit">+ Add Item </button>
+          </form>
+      )
     }
-  })
+  });
+
 
   /*
   Header
@@ -55,7 +101,10 @@ var ReactDOM = require('react-dom');
     var Inventory = React.createClass({
       render : function() {
         return (
-          <p>Inventory</p>
+          <div>
+          <h2>Inventory</h2>
+          <AddFishForm />
+          </div>
         )
       }
     })
@@ -65,17 +114,45 @@ var ReactDOM = require('react-dom');
     This will let us make <StorePicker>
     */
 var StorePicker = React.createClass({
-
+  mixins : [History],
+  goToStore : function(event) {
+    event.preventDefault();
+    // get the data from the input
+    var storeId = this.refs.storeId.value;
+    this.history.pushState(null, '/store/' + storeId);
+    // transition from <StorePicker/> to <App/>
+  },
   render : function () {
     return (
-      <form className="store-selector">
+      <form className="store-selector" onSubmit={this.goToStore}>
       {/*Comments go here for JSX */}
         <h2> Please Enter A Store</h2>
-        <input type="text" ref="storeId" required />
+        <input type="text" ref="storeId" defaultValue={h.getFunName()} required />
         <input type="Submit" />
       </form>
     )
   }
-});
+ });
 
-  ReactDOM.render(<App/>, document.querySelector("#main"));
+/*
+  Not Found
+ */
+
+ var NotFound = React.createClass({
+   render : function() {
+     return <h1>Not Found!</h1>
+   }
+ });
+
+
+ /*
+  Routes
+  */
+  var routes = (
+    <Router history={createBrowserHistory()}>
+      <Route path="/" component={StorePicker}/>
+      <Route path="/store/:storeId" component={App}/>
+      <Route path="*" component={NotFound}/>
+    </Router>
+  )
+  ReactDOM.render(routes, document.querySelector("#main"));
