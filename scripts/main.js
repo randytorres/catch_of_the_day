@@ -13,6 +13,25 @@ var h = require('./helpers');
  /* App
   */
   var App = React.createClass({
+    getInitialState : function() {
+      return {
+        fishes : {},
+        order : {}
+      }
+    },
+    addFish : function(fish) {
+      var timestamp = (new Date()).getTime();
+      // update the state object
+      this.state.fishes['fish-' + timestamp] = fish;
+      // set the state
+      this.setState({ fishes : this.state.fishes });
+    },
+    loadSamples : function() {
+      this.setState({
+        fishes : require('./sample-fishes')
+      });
+
+    },
     render : function() {
     return (
       <div className="catch-of-the-day">
@@ -20,7 +39,7 @@ var h = require('./helpers');
           <Header tagline="Fresh Seafood Market"/>
           </div>
           <Order />
-          <Inventory />
+          <Inventory addFish={this.addFish} loadSamples={this.loadSamples}/>
           </div>
         )
      }
@@ -38,16 +57,17 @@ var h = require('./helpers');
       var fish = {
         name : this.refs.name.value,
         price : this.refs.price.value,
-        status : this.ref.status.value,
+        status : this.refs.status.value,
         desc : this.refs.desc.value,
         image : this.refs.desc.value
       }
       // 3. Add the fish to the App State
-
+      this.props.addFish(fish);
+      this.refs.fishForm.reset();
     },
     render : function() {
       return (
-        <form className="fish-edit" onSubmit={this.createFish}>
+        <form className="fish-edit" ref="fishForm" onSubmit={this.createFish}>
           <input type="text" ref="name" placeholder="Fish Name" />
           <input type="text" ref="price" placeholder="Fish Price" />
           <select ref="status">
@@ -103,7 +123,8 @@ var h = require('./helpers');
         return (
           <div>
           <h2>Inventory</h2>
-          <AddFishForm />
+          <AddFishForm {...this.props} />
+          <button onClick={this.props.loadSamples}>Load Sample Fishes</button>
           </div>
         )
       }
