@@ -259,7 +259,7 @@ var Inventory = React.createClass({
 
 
 
-/* 
+/*
  StorePicker
  This will let us make <StorePicker/>
  */
