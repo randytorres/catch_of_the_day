@@ -2,8 +2,8 @@
   "name": "catch-of-the-day",
   "version": "1.0.0",
   "engines": {
-    "node": "4.1.1"
-  }
+    "node": "5.5"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
