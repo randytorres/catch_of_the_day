@@ -5,5 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="catch_of_the_day node_modules" level="project" />
+    <orderEntry type="library" name="react-0.14.0" level="application" />
   </component>
 </module>
