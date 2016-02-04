@@ -2,297 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd2f205d-56bb-4d31-85da-f5b0b90bc301" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/PATENTS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/CSSCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/Deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/ErrorUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/EventListener.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/ExecutionEnvironment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/Map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/Promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/PromiseMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/TouchEventUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/URI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/UserAgent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/UserAgentData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/VersionRange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/areEqual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/camelize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/camelizeStyleName.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/containsNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/crc32.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/createArrayFromMixed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/createNodesFromMarkup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/emptyFunction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/emptyObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/everyObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/fetch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/fetchWithRetries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/filterObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/flattenArray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/focusNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/forEachObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/getActiveElement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/getMarkupWrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/getUnboundedScrollPosition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/hyphenate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/hyphenateStyleName.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/invariant.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/isEmpty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/isNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/isTextNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/joinClasses.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/keyMirror.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/keyOf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/mapObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/memoizeStringOnly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/monitorCodeUse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/nativeRequestAnimationFrame.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/nullthrows.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/performance.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/performanceNow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/removeFromArray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/requestAnimationFrame.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/resolveImmediate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/shallowEqual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/someObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/sprintf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/toArray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/warning.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/include/xhrSimpleDataSerializer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/flow/lib/dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/CSSCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/Deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/ErrorUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/EventListener.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/ExecutionEnvironment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/Map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/Promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/PromiseMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/TouchEventUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/URI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/UserAgent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/UserAgentData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/VersionRange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/__mocks__/ErrorUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/__mocks__/crc32.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/__mocks__/fetch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/__mocks__/fetchWithRetries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/__mocks__/nullthrows.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/areEqual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/camelize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/camelizeStyleName.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/containsNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/crc32.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/createArrayFromMixed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/createNodesFromMarkup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/emptyFunction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/emptyObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/everyObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/fetch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/fetchWithRetries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/filterObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/flattenArray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/focusNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/forEachObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/getActiveElement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/getMarkupWrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/getUnboundedScrollPosition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/hyphenate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/hyphenateStyleName.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/invariant.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/isEmpty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/isNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/isTextNode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/joinClasses.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/keyMirror.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/keyOf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/mapObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/memoizeStringOnly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/monitorCodeUse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/nativeRequestAnimationFrame.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/nullthrows.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/performance.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/performanceNow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/removeFromArray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/requestAnimationFrame.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/resolveImmediate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/shallowEqual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/someObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/sprintf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/toArray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/warning.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/lib/xhrSimpleDataSerializer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/module-map.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fbjs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/UPGRADE_GUIDE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/DOMUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/AsyncUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/DOMUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/History.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/IndexLink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/IndexRedirect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/IndexRoute.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/Lifecycle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/Link.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/PatternUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/PropTypes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/Redirect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/Route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/RouteContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/RouteUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/Router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/RoutingContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/TransitionUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/computeChangedRoutes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/getComponents.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/getRouteParams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/isActive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/match.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/matchRoutes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/modules/useRoutes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/CHANGES.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/docs/BasenameSupport.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/docs/ConfirmingNavigation.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/docs/GettingStarted.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/docs/HashHistoryCaveats.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/docs/Location.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/docs/QuerySupport.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/docs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/docs/Terms.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/Actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/AsyncUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/DOMStateStorage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/DOMUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/ExecutionEnvironment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/createBrowserHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/createDOMHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/createHashHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/createHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/createLocation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/createMemoryHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/deprecate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/enableBeforeUnload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/enableQueries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/runTransitionHook.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/useBasename.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/useBeforeUnload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/lib/useQueries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/Actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/AsyncUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/DOMStateStorage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/DOMUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/ExecutionEnvironment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/createBrowserHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/createDOMHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/createHashHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/createHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/createLocation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/createMemoryHistory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/deprecate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/enableBeforeUnload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/enableQueries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/runTransitionHook.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/useBasename.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/useBeforeUnload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/modules/useQueries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/umd/History.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/history/umd/History.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/.eslintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/lib/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/lib/stringify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/test/stringify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-router/node_modules/qs/test/utils.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/catch_of_the_day.iml" afterPath="$PROJECT_DIR$/.idea/catch_of_the_day.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/main.js" afterPath="$PROJECT_DIR$/build/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/react-router/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/README.md" afterPath="$PROJECT_DIR$/node_modules/react-router/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/API.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/API.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/Introduction.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/Introduction.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/README.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/guides/advanced/ComponentLifecycle.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/guides/advanced/ComponentLifecycle.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/guides/advanced/ConfirmingNavigation.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/guides/advanced/ConfirmingNavigation.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/guides/advanced/DynamicRouting.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/guides/advanced/DynamicRouting.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/guides/advanced/NavigatingOutsideOfComponents.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/guides/advanced/NavigatingOutsideOfComponents.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/guides/advanced/ServerRendering.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/guides/advanced/ServerRendering.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/guides/basics/Histories.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/guides/basics/Histories.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/guides/basics/IndexRoutes.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/guides/basics/IndexRoutes.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/guides/basics/RouteConfiguration.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/guides/basics/RouteConfiguration.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/docs/guides/basics/RouteMatching.md" afterPath="$PROJECT_DIR$/node_modules/react-router/docs/guides/basics/RouteMatching.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/History.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/History.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/IndexLink.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/IndexLink.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/IndexRedirect.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/IndexRedirect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/IndexRoute.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/IndexRoute.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/Lifecycle.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/Lifecycle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/Link.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/Link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/PatternUtils.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/PatternUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/Redirect.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/Redirect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/Route.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/Route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/RouteUtils.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/RouteUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/Router.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/Router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/RoutingContext.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/RoutingContext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/computeChangedRoutes.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/computeChangedRoutes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/isActive.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/isActive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/match.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/match.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/matchRoutes.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/matchRoutes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/lib/useRoutes.js" afterPath="$PROJECT_DIR$/node_modules/react-router/lib/useRoutes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/package.json" afterPath="$PROJECT_DIR$/node_modules/react-router/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/umd/ReactRouter.js" afterPath="$PROJECT_DIR$/node_modules/react-router/umd/ReactRouter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-router/umd/ReactRouter.min.js" afterPath="$PROJECT_DIR$/node_modules/react-router/umd/ReactRouter.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/README.md" afterPath="$PROJECT_DIR$/node_modules/react/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.min.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react.min.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ChangeEventPlugin.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ChangeEventPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/HTMLDOMPropertyConfig.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/HTMLDOMPropertyConfig.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/React.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/React.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroup.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroupChild.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroupChild.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponent.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMComponent.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMOption.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMOption.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMSelect.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMSelect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactDefaultPerfAnalysis.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactDefaultPerfAnalysis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElement.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactElement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementValidator.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactElementValidator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactErrorUtils.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactErrorUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactMount.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactMount.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTestUtils.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactTestUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactVersion.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactVersion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ResponderEventPlugin.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ResponderEventPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/SyntheticEvent.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/SyntheticEvent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/package.json" afterPath="$PROJECT_DIR$/node_modules/react/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/main.js" afterPath="$PROJECT_DIR$/scripts/main.js" />
     </list>
     <ignored path="catch_of_the_day.iws" />
@@ -337,8 +48,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -409,7 +120,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="878" />
-    <option name="width" value="694" />
+    <option name="width" value="706" />
     <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -439,80 +150,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catch_of_the_day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catch_of_the_day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catch_of_the_day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catch_of_the_day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catch_of_the_day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catch_of_the_day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catch_of_the_day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catch_of_the_day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catch_of_the_day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catch_of_the_day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catch_of_the_day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
     </panes>
@@ -601,20 +239,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="878" y="0" width="694" height="870" extended-state="0" />
+    <frame x="878" y="0" width="706" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46289754" sideWeight="0.51632655" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46189025" sideWeight="0.48367348" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37883437" sideWeight="0.506986" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37804878" sideWeight="0.50914633" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38617885" sideWeight="0.49301398" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4105691" sideWeight="0.49085367" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33163264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3306233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -672,14 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -696,10 +326,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding />
         </state>
       </provider>
